@@ -4,9 +4,9 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.practicecomposebasic.ComposeArticleScreen
 import com.example.practicecomposebasic.MainScreen
 import com.example.practicecomposebasic.models.Screen
+import com.example.practicecomposebasic.screen.ComposeArticleScreen
 
 @Composable
 fun NavigationStack () {

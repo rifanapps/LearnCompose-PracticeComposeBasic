@@ -56,11 +56,3 @@ fun MainScreen(navController: NavController) {
         }
     }
 }
-
-@Composable
-fun ComposeArticleScreen() {
-    Column(
-    ) {
-        Text(text = "Rifan")
-    }
-}
