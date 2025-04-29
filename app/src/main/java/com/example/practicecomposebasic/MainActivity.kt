@@ -48,10 +48,14 @@ fun MainScreen(navController: NavController) {
         }) {
             Text(text = "Compose Article")
         }
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = {
+            navController.navigate(route = Screen.TaskManager.route)
+        }) {
             Text(text = "Task Manager")
         }
-        Button(onClick = { /*TODO*/ }) {
+        Button(onClick = {
+            navController.navigate(Screen.ComposeQuadrant.route)
+        }) {
             Text(text = "Compose Quadrant")
         }
     }
